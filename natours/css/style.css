@@ -1,4 +1,3 @@
-/* || RESET */
 *,
 *::after,
 *::before {
@@ -9,9 +8,6 @@
 html {
   font-size: 62.5%; }
 
-/* || VARIABLES */
-/* || UTILITY CLASSES */
-/* GENERAL */
 body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
@@ -21,7 +17,6 @@ body {
   padding: 3rem;
   box-sizing: border-box; }
 
-/* || HEADER */
 .header {
   height: 90vh;
   background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.899)), url("../img/hero.jpg");
@@ -30,7 +25,6 @@ body {
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   position: relative; }
 
-/* || LOGO */
 .header__logo-box {
   position: absolute;
   top: 4rem;
@@ -39,7 +33,6 @@ body {
 .header__logo {
   height: 3.5rem; }
 
-/* || HEADING */
 .header__text-box {
   position: absolute;
   top: 40%;
