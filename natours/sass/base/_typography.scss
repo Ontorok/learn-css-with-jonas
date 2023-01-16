@@ -48,7 +48,7 @@
   -webkit-background-clip: text;
   color: transparent;
   letter-spacing: 2px;
-  transition: all 0.2s;
+  transition: all 0.01s;
 
   &:hover {
     transform: skew(15deg, 2deg) scale(1.1);
